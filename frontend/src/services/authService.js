@@ -1,7 +1,7 @@
 // src/services/authService.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/auth/';
+const API_URL = 'https://smart-placement-portal-gren.onrender.com/api/users/';
 
 // Register user
 const register = async (userData) => {
