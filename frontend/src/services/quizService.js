@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://smart-placement-portal-gren.onrender.com/api/users/';
+const API_URL = 'https://smart-placement-portal-gren.onrender.com/api/quiz/';
 
 const getAuthHeaders = () => {
   const user = JSON.parse(localStorage.getItem('user'));
