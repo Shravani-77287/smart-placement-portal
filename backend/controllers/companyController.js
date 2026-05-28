@@ -1,4 +1,4 @@
-const Company = require('../models/Company');
+const Company = require('../models/company');
 
 // @desc    Get all companies applied to by the logged-in user
 // @route   GET /api/companies
